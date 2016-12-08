@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b7d60e19-d440-4ada-b074-3abef4eacf5b" name="UMLClassDiagram1" linkedPackageId="05ae5ce3-4154-42f2-ae24-d40aa37fc720" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b7d60e19-d440-4ada-b074-3abef4eacf5b" name="UMLClassDiagram1" linkedPackageId="05ae5ce3-4154-42f2-ae24-d40aa37fc720" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="6d5a4b6f-1d73-46a2-8d2b-1a4de62fa7da" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
@@ -103,7 +103,7 @@
           <operation Id="0820ebb5-90de-4483-b96c-67c2e3680632" name="Add Chefkok" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="7653c088-2321-43bf-a94f-d1b0aab2edb8" />
           </operation>
-          <operation Id="862e1e08-2ff4-4041-9fdd-43fa2295d56a" name="Add Hjælpere" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="862e1e08-2ff4-4041-9fdd-43fa2295d56a" name="Add Kok" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="5eb54464-4d73-41f4-ab8a-028b7b8e564a" />
           </operation>
           <operation Id="753dbc1f-1979-4f03-b88c-b5cfdee30fb7" name="Add oprydning" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
