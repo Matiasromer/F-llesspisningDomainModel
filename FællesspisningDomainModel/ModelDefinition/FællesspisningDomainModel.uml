@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="963c4b4f-4cbe-45d0-9843-e21d5035ca8f"
   name="FællesspisningDomainModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -30,66 +30,7 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="32a988b2-54e6-4a94-a365-075c5027ce66"
-            isDerived="false"
-            sourceEndRoleName="menu"
-            targetEndRoleName="Bolig"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="f1fc96be-25f6-4f5f-9826-118f9f6ee075"
-              LastKnownName="Bolig"
-              LastKnownLocation="FællesspisningDomainModel.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="dd9f7f9e-f3d0-4b1c-9a52-44ede2b66c82"
-                  name="menu"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="20ae30dc-a582-4f31-8c4b-cc4a6477556e"
-                  name="Bolig"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
-          <property
-            Id="be2e6349-b81c-4776-a71b-8617ddbf0d78"
-            name="Pris"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="2cfb74a5-ecd7-4b31-af9a-b7b78a7ce8bd"
-                LastKnownName="int"
-                LastKnownLocation="FællesspisningDomainModel.uml" />
-            </type_NamedElement>
-          </property>
           <property
             Id="175c9eb4-1a00-4bc6-b0ce-5dda35fa55f6"
             name="Ret"
@@ -216,7 +157,7 @@
           </property>
           <property
             Id="40ce78d5-4a62-4e80-ba0e-77fc88aef904"
-            name="Hjælpere"
+            name="Kok"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -324,44 +265,8 @@
         </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="69f4ba12-ae10-48a6-a137-3454f9cb00a2"
-            name="Hustande"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="2cfb74a5-ecd7-4b31-af9a-b7b78a7ce8bd"
-                LastKnownName="int"
-                LastKnownLocation="FællesspisningDomainModel.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="66dd4607-bec8-4e1a-ab7f-e0608e20aa12"
             name="Add"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="d13d6acb-731a-49d0-899f-7af34c4ec13e"
-                LastKnownName="void"
-                LastKnownLocation="FællesspisningDomainModel.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="32aef39f-b8d8-4149-958c-a79e44c6ef1d"
-            name="Delete"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -388,50 +293,6 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
-          <property
-            Id="20bf3521-bccd-4d70-bea3-ba1e2ce7f321"
-            name="Total pris (eks. 2000kr)"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="2532b027-ac09-4c0d-93f5-bd65c45f00d3"
-            name="Samlet antal Kuvert"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="7ddb2c64-9168-4868-8e07-7fdc5ab58460"
-            name="gennemsnitslig kuvertspris"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="19d78a2e-0616-4d31-bba9-88f8a8bc1f0e"
-            name="Samlet pris pr. Hustand"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -449,7 +310,59 @@
         isActiveClass="false">
         <targetEnds>
           <association
-            Id="b10e46e8-0298-41d3-bdf2-3e7e5edda645"
+            Id="4fa07f5c-fb18-4ecd-90a5-8f6d12572ab4"
+            isDerived="false"
+            sourceEndRoleName="Bolig"
+            targetEndRoleName="TilmeldListe"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d28fcc1d-797f-4fb8-b536-4ee400708542"
+              LastKnownName="TilmeldListe"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0d42696-8cb7-493a-a7b4-24131061840a"
+                  name="Bolig"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="38ae7bf4-8746-4bcc-9faf-6ff5b1291b75"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a0bfc845-2b3f-4abc-8bf0-06499a43c221"
+                      name="Upper"
+                      value=".*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0d1ecdcf-8d4a-47ae-ba56-8f913fab23c6"
+                  name="TilmeldListe"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3dd694fc-9ae6-4988-ad85-e12a233d9eef"
             isDerived="false"
             sourceEndRoleName="Bolig"
             targetEndRoleName="Arbejde"
@@ -462,7 +375,7 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="d9221be6-83b5-4e7f-aa5f-240d5c6a69e4"
+                  Id="da925d90-e8ec-49dc-b1b1-5640f4438577"
                   name="Bolig"
                   isLeaf="false"
                   isStatic="false"
@@ -471,11 +384,24 @@
                   isDerivedUnion="false"
                   aggregation="None"
                   isComposite="false"
-                  isNavigableOwned="false" />
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="46a530bb-ecf6-498b-a1fd-8f52fc59ce6d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="435f8983-c6dd-4df8-bd5f-02f7805f1a8b"
+                      name="Upper"
+                      value=".*" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="8a61c1e4-b8d6-44ae-bf89-2e0c764b806e"
+                  Id="4388df14-6075-41e5-8c7f-1087e71d8843"
                   name="Arbejde"
                   isLeaf="false"
                   isStatic="false"
@@ -502,8 +428,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
-                LastKnownName="string"
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
                 LastKnownLocation="FællesspisningDomainModel.uml" />
             </type_NamedElement>
           </property>
@@ -520,8 +446,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
-                LastKnownName="string"
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
                 LastKnownLocation="FællesspisningDomainModel.uml" />
             </type_NamedElement>
           </property>
@@ -538,8 +464,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
-                LastKnownName="string"
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
                 LastKnownLocation="FællesspisningDomainModel.uml" />
             </type_NamedElement>
           </property>
@@ -556,8 +482,44 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="d13d6acb-731a-49d0-899f-7af34c4ec13e"
-                LastKnownName="void"
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a2829e92-9fe8-4620-8fc2-167222171a65"
+            name="AntalKuverter"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e38dcc7b-e772-4154-b24e-04e897b5ba2d"
+            name="PrisPerKuvert"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+                LastKnownName="double"
                 LastKnownLocation="FællesspisningDomainModel.uml" />
             </type_NamedElement>
           </property>
@@ -565,58 +527,52 @@
         <ownedOperationsInternal>
           <operation
             Id="f313e080-c4e2-4d31-b537-1de9c86ca700"
-            name="Return Voksen"
+            name="Return AntalUnge"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
             concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="185cd086-55ef-48ac-887a-31c3cf1b1f39"
-                  name="navn"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
+            isQuery="false" />
           <operation
             Id="2dc8aab4-cc05-4538-a2f1-781cf506bd0b"
-            name="Return Ung"
+            name="Return PrisPerKuvert"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
             concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="be48b4fb-97f9-4826-bebd-950ad3f1bd22"
-                  name="navn"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
+            isQuery="false" />
           <operation
             Id="8f708ff6-f382-49ba-b2a8-23e56c9418af"
-            name="Return børn"
+            name="Return AntalKuverter"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
             concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="0162e73d-8f65-434d-9041-17e5598d250d"
-                  name="navn"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
+            isQuery="false" />
+          <operation
+            Id="16d4666e-2c3b-4d2a-8b2e-565e1e2079f2"
+            name="Return AntalBørnU3"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a52f9e1e-82e7-4d4e-b035-09c385abfa24"
+            name="Return AntalBørn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="50663767-a232-4047-895b-962456742869"
+            name="Return AntalVoksne"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -757,22 +713,11 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
-          <property
-            Id="fc22f1bd-5c7d-4c8b-aed1-38823d1054ea"
-            name="Sum Kuvert"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="ab0033d8-08a3-4100-8ae5-01647569c8a8"
-            name="Operation1"
+            name="prisPrKuvert"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -812,7 +757,20 @@
                   isDerivedUnion="false"
                   aggregation="None"
                   isComposite="false"
-                  isNavigableOwned="false" />
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0a2f9447-b3b7-44ad-8f12-cb69d5ed94f8"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="578d89e9-576d-4263-8e71-8a32bae7fe19"
+                      name="Upper"
+                      value=".4" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
@@ -832,41 +790,148 @@
         <ownedAttributesInternal>
           <property
             Id="bea756ca-7ce6-44e2-ae56-57bd2d7ee946"
-            name="Attribute1"
+            name="dage"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
+            isUnique="false"
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
+                LastKnownName="string"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="69112579-30f4-42ba-8c1c-a91e49825647"
+            name="Nummer"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2cfb74a5-ecd7-4b31-af9a-b7b78a7ce8bd"
+                LastKnownName="int"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8b68347c-1412-4df8-b57f-4e726bedc1ef"
+            name="Ret"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
+                LastKnownName="string"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4bb4f6da-82dc-4009-81b8-2924ad207778"
+            name="Chefkok"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
+                LastKnownName="string"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6d1a92a4-6842-40d2-9aea-3afa54397280"
+            name="Kok"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
+                LastKnownName="string"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d025aba1-ef62-48b0-b4b5-e6d7f76918e8"
+            name="Opryder"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="55d4cefd-6e5e-42e0-b1ea-0bdc428b4369"
+                LastKnownName="string"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5d16c03c-5fac-4ad2-a41f-398e2e9e4f96"
+            name="ToString : Override"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <class
-        Id="fc6dbe63-08e8-436b-92c4-915b989679e0"
-        name="Tilmeldte Boliger"
+      <actor
+        Id="6b63dcb6-23f6-4f95-86e5-e611caa38afd"
+        name="Planlægger"
         isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
+        isLeaf="false">
         <targetEnds>
           <association
-            Id="8adf564c-49cd-421f-9389-eb59f263594c"
+            Id="4086aeed-00d8-496a-aefb-704ddbf4bbcd"
             isDerived="false"
-            sourceEndRoleName="Tilmeldte Hus"
-            targetEndRoleName="Liste"
+            sourceEndRoleName="Planlægger"
+            targetEndRoleName="Beregning"
             isLeaf="false"
             isAbstract="false">
-            <classMoniker
-              Id="d28fcc1d-797f-4fb8-b536-4ee400708542"
-              LastKnownName="TilmeldListe"
+            <useCaseMoniker
+              Id="78d62e52-5ba2-42f7-88f7-b55f293b914a"
+              LastKnownName="Beregning"
               LastKnownLocation="FællesspisningDomainModel.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="aec83b58-7095-4a4b-b236-50b3f65d61a3"
-                  name="Tilmeldte Hus"
+                  Id="f2697ae8-8a10-4d5b-a35e-472c8b935a30"
+                  name="Planlægger"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -878,8 +943,1149 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="174c8c7f-7b14-4305-9f3c-f4cd718d8b51"
-                  name="Liste"
+                  Id="d323d11a-0076-4f2c-bc6b-98fdc2fd807e"
+                  name="Beregning"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="24671fea-25e2-4998-a4cb-a6342e24bbf0"
+            isDerived="false"
+            sourceEndRoleName="Planlægger"
+            targetEndRoleName="menu"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="61067e32-7740-4b72-970b-eedf315c0f3d"
+              LastKnownName="menu"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="852e872a-da04-4e1b-b772-80b9ab501885"
+                  name="Planlægger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="53f9e30f-adfe-4430-8ef0-d5b0b0743211"
+                  name="menu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d37f6c1c-8a1f-49fc-9615-d2925cd191c2"
+            isDerived="false"
+            sourceEndRoleName="Planlægger"
+            targetEndRoleName="Arbejde"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7a49c9af-caa6-4394-b9cd-37bd712b7981"
+              LastKnownName="Arbejde"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88f289a5-fe7f-4697-b681-562c6374ea0f"
+                  name="Planlægger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3e709982-f67e-43a2-9ae4-effe89374340"
+                  name="Arbejde"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d1780711-a57f-44a5-a5be-f3cdc7ebe48b"
+            isDerived="false"
+            sourceEndRoleName="Planlægger"
+            targetEndRoleName="Pris"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a4aa3a1d-6808-4405-943a-3057e892aea7"
+              LastKnownName="Pris"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47d9022c-0859-43d7-8a74-49951001b900"
+                  name="Planlægger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a5ec67e-35d5-4d86-be28-1a2ec32c8bff"
+                  name="Pris"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1487bcf7-5c1d-4ebc-a9cd-101a043159aa"
+            isDerived="false"
+            sourceEndRoleName="Planlægger"
+            targetEndRoleName="Tilmelding"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="41757b79-21d9-4be6-b4e4-6603c696dd81"
+              LastKnownName="Tilmelding"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d83131b-7b25-4f16-ade2-995cc0169736"
+                  name="Planlægger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03a78a4f-b9a1-4827-a746-44320ca10ce9"
+                  name="Tilmelding"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78d62e52-5ba2-42f7-88f7-b55f293b914a"
+        name="Beregning"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="61067e32-7740-4b72-970b-eedf315c0f3d"
+        name="menu"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="41757b79-21d9-4be6-b4e4-6603c696dd81"
+        name="Tilmelding"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7a49c9af-caa6-4394-b9cd-37bd712b7981"
+        name="Arbejde"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="54a25534-e57b-40c0-ad85-c3e5ff44d77a"
+        name="Beboer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="6745ac91-682e-4bb4-b148-37ff6613b3d7"
+            isDerived="false"
+            sourceEndRoleName="Beboer"
+            targetEndRoleName="Pris"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a4aa3a1d-6808-4405-943a-3057e892aea7"
+              LastKnownName="Pris"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59bae60b-27ed-4928-9a36-d5efa48b9025"
+                  name="Beboer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="659f0e70-9f28-4eb3-9190-390ef9d48090"
+                  name="Pris"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="85c84eb3-1c2a-45d9-b647-cdb16ef7927c"
+            isDerived="false"
+            sourceEndRoleName="Beboer"
+            targetEndRoleName="Tilmelding"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="41757b79-21d9-4be6-b4e4-6603c696dd81"
+              LastKnownName="Tilmelding"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b280c6cb-d0fe-4f68-8210-a5a0d3471a67"
+                  name="Beboer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d22114c9-06ef-424a-b5c3-93a135ed9c96"
+                  name="Tilmelding"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a4aa3a1d-6808-4405-943a-3057e892aea7"
+        name="Pris"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="54c5f2a3-6ae4-4d41-9035-228d1bc51b43"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="877141b6-66d8-452e-814a-2cfebd734a5c"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="89128066-e56c-458f-b43f-2703905c9589"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="6a5acfc7-8e5d-4634-ba8a-e1513dfa7432"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d08bab7d-536e-47cc-869b-9cb8d38a89c2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d86522c1-088a-410d-a45e-8317e3c45ae9"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7f1853ba-d0d2-4dbd-ba3c-88e5d23c02c4"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bea96470-db2d-40a7-a0df-6c1c7c8758b7"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6fa86533-8cee-4282-b1fd-df1685a9aac4"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="44c4a68e-e6a2-4c6f-b82c-7d390eaec37d"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b34dfe93-ccf0-4e6f-a245-0372a206b59e"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f2769625-0034-49a0-9b3a-276755cd81ca"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6a5acfc7-8e5d-4634-ba8a-e1513dfa7432"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="21fc3c71-bfe7-453f-a2cc-9b0ea6d57dfc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="288c52a5-5596-433e-b2f6-ca9b06546d40"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="8c870a6a-7eb4-48b6-928c-a94f8106f3d5"
+                LastKnownName=": Kunde"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d08bab7d-536e-47cc-869b-9cb8d38a89c2"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e57ce839-0c56-4ae0-a9dc-f990c6e69b66"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+                LastKnownName=": Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a3f8a831-452a-4705-b56a-eaf2723fabd5"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="54e5040a-ff5a-491f-bfce-4b06a3957056"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ee31b359-78a4-4521-850c-af1fdbae0ff8"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="28b173ba-632a-4e2f-a3eb-a1dcfecde13b"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="54e5040a-ff5a-491f-bfce-4b06a3957056"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ee97bc5a-6ed0-4139-97f1-1f2f24778560"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+                LastKnownName=": Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d86522c1-088a-410d-a45e-8317e3c45ae9"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ee31b359-78a4-4521-850c-af1fdbae0ff8"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+                LastKnownName=": Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="28b173ba-632a-4e2f-a3eb-a1dcfecde13b"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+                LastKnownName=": Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7f1853ba-d0d2-4dbd-ba3c-88e5d23c02c4"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a3f8a831-452a-4705-b56a-eaf2723fabd5"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c56deed4-bb20-4878-b50e-20e4f252a729"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+                LastKnownName=": Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5a89e598-649a-486c-9663-912e02631699"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+                LastKnownName=": Menu"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="feba6656-eb13-4ece-908c-26f30cec05e3"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9661e0be-2e97-48e8-9077-fed48706c375"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="812d2133-0def-46b8-8a70-2bf57f27fd01"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="813a4af1-09b7-4f87-92b1-c2954443f768"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9661e0be-2e97-48e8-9077-fed48706c375"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0479d366-13af-4ed4-a0de-200f4608151a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+                LastKnownName=": Menu"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="812d2133-0def-46b8-8a70-2bf57f27fd01"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+                LastKnownName=": Menu"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bea96470-db2d-40a7-a0df-6c1c7c8758b7"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="813a4af1-09b7-4f87-92b1-c2954443f768"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+                LastKnownName=": Menu"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6fa86533-8cee-4282-b1fd-df1685a9aac4"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="feba6656-eb13-4ece-908c-26f30cec05e3"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="96e9f317-2671-453d-bd24-95013d5353da"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+                LastKnownName=": Menu"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d1d8b28c-6825-4c82-9d1e-05ddf948d61f"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+                LastKnownName=": Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="adcc8071-00df-4d1b-a02c-b97447feb4e5"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="342a6e16-651b-483c-865c-1e32c0b5cd69"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="806b5f8c-239f-49a0-a422-c46938e4354f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1a3ce158-cd7c-44a5-89f6-409ae4c016d6"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="342a6e16-651b-483c-865c-1e32c0b5cd69"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6aed2340-8f33-472b-9ebe-48f6e54918bc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+                LastKnownName=": Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="44c4a68e-e6a2-4c6f-b82c-7d390eaec37d"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="806b5f8c-239f-49a0-a422-c46938e4354f"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+                LastKnownName=": Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1a3ce158-cd7c-44a5-89f6-409ae4c016d6"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+                LastKnownName=": Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b34dfe93-ccf0-4e6f-a245-0372a206b59e"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="adcc8071-00df-4d1b-a02c-b97447feb4e5"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7b1bbb7c-ac39-4e26-922d-66f883ce6e53"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+                LastKnownName=": Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f2769625-0034-49a0-9b3a-276755cd81ca"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0acc4877-1701-47dd-878b-fecd26c79d21"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="8c870a6a-7eb4-48b6-928c-a94f8106f3d5"
+                LastKnownName=": Kunde"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="89128066-e56c-458f-b43f-2703905c9589"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f8f8954c-d356-4538-83aa-294af33ebbf0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="FællesspisningDomainModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+                LastKnownName=": Viewmodel"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="8c870a6a-7eb4-48b6-928c-a94f8106f3d5"
+            name=": Kunde"
+            isActor="false"
+            lifelineDisplayName=": Kunde">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="288c52a5-5596-433e-b2f6-ca9b06546d40"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0acc4877-1701-47dd-878b-fecd26c79d21"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="798b3174-ab0e-4e30-958a-28d792e69e00"
+            name=": Viewmodel"
+            isActor="false"
+            lifelineDisplayName=": Viewmodel">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="6a5acfc7-8e5d-4634-ba8a-e1513dfa7432"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="89128066-e56c-458f-b43f-2703905c9589"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="03adadd5-6bfe-48b5-a472-ed6df068a6fb"
+            name=": Tilmelding"
+            isActor="false"
+            lifelineDisplayName=": Tilmelding">
+            <represents>
+              <propertyMoniker
+                Id="c5b94217-f5c9-430d-82ad-9efea461d67a"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="54e5040a-ff5a-491f-bfce-4b06a3957056"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a3f8a831-452a-4705-b56a-eaf2723fabd5"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="aa786daf-6fc3-4991-83f0-b00dc13ed1af"
+            name=": Menu"
+            isActor="false"
+            lifelineDisplayName=": Menu">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9661e0be-2e97-48e8-9077-fed48706c375"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="feba6656-eb13-4ece-908c-26f30cec05e3"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="ddc72339-2b66-4937-9555-b0a6949a5ced"
+            name=": Pris"
+            isActor="false"
+            lifelineDisplayName=": Pris">
+            <represents>
+              <propertyMoniker
+                Id="8710bece-6612-4282-8e50-2a5c3329812d"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="342a6e16-651b-483c-865c-1e32c0b5cd69"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="adcc8071-00df-4d1b-a02c-b97447feb4e5"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="58006229-22c6-47cd-844d-b3707ea1adb4"
+            name="Navn, ID, Alder, Bolig nr, penge, antal. "
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="288c52a5-5596-433e-b2f6-ca9b06546d40"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d08bab7d-536e-47cc-869b-9cb8d38a89c2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="11beb2ea-8cde-4581-82cf-e4cd974f1f45"
+            name="Navn, ID, Alder, Bolig nr, Antal"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d86522c1-088a-410d-a45e-8317e3c45ae9"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ee31b359-78a4-4521-850c-af1fdbae0ff8"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d4240b53-1d43-468b-89c1-25f988246fcf"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="28b173ba-632a-4e2f-a3eb-a1dcfecde13b"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7f1853ba-d0d2-4dbd-ba3c-88e5d23c02c4"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ab46c965-7e76-45de-86af-03c6a1b486ae"
+            name="Chefkok, Kok, ret, deltagere"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bea96470-db2d-40a7-a0df-6c1c7c8758b7"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="812d2133-0def-46b8-8a70-2bf57f27fd01"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c4bf45af-9abb-4547-aeff-252909b3397e"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="813a4af1-09b7-4f87-92b1-c2954443f768"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6fa86533-8cee-4282-b1fd-df1685a9aac4"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="89a12b8d-cf51-4844-9f67-74d95cbd7db4"
+            name="Antal, alder, ID, Bolig nr."
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="44c4a68e-e6a2-4c6f-b82c-7d390eaec37d"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="806b5f8c-239f-49a0-a422-c46938e4354f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="980bfabe-8154-4ca1-b5ca-25bc83b7e0ef"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1a3ce158-cd7c-44a5-89f6-409ae4c016d6"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b34dfe93-ccf0-4e6f-a245-0372a206b59e"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="365ec8fb-f5ed-4c38-9b88-8fae23b4784c"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2769625-0034-49a0-9b3a-276755cd81ca"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0acc4877-1701-47dd-878b-fecd26c79d21"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="c5b94217-f5c9-430d-82ad-9efea461d67a"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <useCaseMoniker
+                Id="41757b79-21d9-4be6-b4e4-6603c696dd81"
+                LastKnownName="Tilmelding"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8710bece-6612-4282-8e50-2a5c3329812d"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <useCaseMoniker
+                Id="a4aa3a1d-6808-4405-943a-3057e892aea7"
+                LastKnownName="Pris"
+                LastKnownLocation="FællesspisningDomainModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="21fc3c71-bfe7-453f-a2cc-9b0ea6d57dfc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f8f8954c-d356-4538-83aa-294af33ebbf0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ee97bc5a-6ed0-4139-97f1-1f2f24778560"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c56deed4-bb20-4878-b50e-20e4f252a729"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0479d366-13af-4ed4-a0de-200f4608151a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="96e9f317-2671-453d-bd24-95013d5353da"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6aed2340-8f33-472b-9ebe-48f6e54918bc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7b1bbb7c-ac39-4e26-922d-66f883ce6e53"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4d89f4b8-79db-4c1b-a32c-606d8bef504a"
+        name="double" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="05ddbcf5-9fbd-4cc7-81f4-84e988dfbb45"
+        name="Int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="81b9f479-72fb-4a25-aded-785754bf7098"
+        name="Arbejde"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ea9b73e0-8aa5-45eb-a2f1-e8c7084323db"
+            isDerived="false"
+            sourceEndRoleName="Arbejde"
+            targetEndRoleName="Skema"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5"
+              LastKnownName="Skema"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9aa7ea9e-b747-4de6-b350-c40a18d99ebe"
+                  name="Arbejde"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="57b7a20d-b160-4c3b-b50f-85012d92b9d1"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3f1b137c-01c2-4646-864b-463d29fcb647"
+                      name="Upper"
+                      value=".*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="96e167c6-cbbc-4b5c-9b18-d44c19f50b61"
+                  name="Skema"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -893,8 +2099,8 @@
         </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="5d7c64ef-e3e4-4ccb-9b54-ec2635b89e4b"
-            name="Antal Voksne"
+            Id="bf9f19bf-8374-4498-a9bc-7de3a7f17f80"
+            name="Chefkok"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -904,8 +2110,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="37f4bf7a-82db-4920-95dc-85354b89ed7e"
-            name="Antal Ung"
+            Id="35cda051-c477-42f6-9c6d-e9ca1614c382"
+            name="Kok"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -915,7 +2121,493 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="e6dd61b1-2dd7-427c-87fe-b267ffff9b95"
+            Id="790ec894-09df-448f-86e7-7eb14edf1e75"
+            name="Opryder"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a40b5b8c-dd2f-4412-bb79-3f055a7c1805"
+        name="Bolig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="cd9d1bbd-7226-4419-a5c1-264ecb886816"
+            isDerived="false"
+            sourceEndRoleName="Bolig"
+            targetEndRoleName="TilmeldListe"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7b1466f5-9fc0-46d8-a6c9-c1ea246cc39a"
+              LastKnownName="TilmeldListe"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad275d53-64a0-4eb4-9775-29a6c47d66a3"
+                  name="Bolig"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="88197c1f-792e-4584-8289-5c3d97312416"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="038899c4-0ffc-432a-a600-f7999912f696"
+                      name="Upper"
+                      value=".*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26cbe50c-8eb8-4045-aade-ec5819560188"
+                  name="TilmeldListe"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2a193ff4-8494-48a2-a16b-4a6116753c0d"
+            isDerived="false"
+            sourceEndRoleName="Bolig"
+            targetEndRoleName="Arbejde"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="81b9f479-72fb-4a25-aded-785754bf7098"
+              LastKnownName="Arbejde"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="920f0544-95e4-4bdb-83be-705b78b40933"
+                  name="Bolig"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="63c4b2ff-46e8-4241-b94b-362490a6e8e9"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fe7d8aec-f27f-4e83-b275-d3d2de398915"
+                      name="Upper"
+                      value=".*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9d76bea9-e40f-4c45-b76c-0c5bf2ee4adc"
+                  name="Arbejde"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6084d84c-4c91-4045-856a-34f9794f5a98"
+            name="AntalKuverter"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b4cf23c6-8f51-4c7a-8f7d-780aa907ff3b"
+            name="Børn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a066001c-049e-4907-9a09-03f0ea38211c"
+            name="BørnU3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="93810fd7-db76-403e-aef8-5561435fae9e"
+            name="PrisPerKuvert"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="fc0993e3-b78a-434a-9dfd-b06a1adacf49"
+            name="Unge"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="42648d7c-1082-4daa-854f-603f73d1f875"
+            name="Voksen"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5"
+        name="Skema"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="930b46b9-cf05-4ae7-895a-cf05afea1070"
+            name="Add"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3f91d2c6-a901-4ced-962e-eed83232f326"
+            name="List&lt;Dag&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a5d17e6-290c-42b5-968a-1d61afc8af7a"
+        name="Menu"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="8a3dda86-357d-4053-80b0-1a7e4a5a7867"
+            isDerived="false"
+            sourceEndRoleName="Menu"
+            targetEndRoleName="Skema"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5"
+              LastKnownName="Skema"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cdecfcc5-45a0-4051-a4bc-1fab63f9240d"
+                  name="Menu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7e71087c-001e-4b7a-a45d-8e1b5d3cc8ee"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fa236dd2-1632-43cb-9ee8-2f452717596e"
+                      name="Upper"
+                      value="*." />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ddc69052-a005-4641-b436-3c84255aeed1"
+                  name="Skema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="f81a89aa-f376-42f9-85c5-acec377d8672"
+            name="Ret"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="403f9a75-57a5-4cd7-a279-a1e11a2cad4e"
+        name="Dag"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="42903bb9-3077-416a-af52-12c4f1fb18a9"
+            isDerived="false"
+            sourceEndRoleName="Dag"
+            targetEndRoleName="Skema"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5"
+              LastKnownName="Skema"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a03656e-20f9-4967-a545-ba44b6f722f4"
+                  name="Dag"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="80753cb9-a0e5-45b8-b750-252fed5f64af"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7cfff52e-8889-4651-924f-37388d4822e1"
+                      name="Upper"
+                      value="4" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5acd6867-e01a-4821-b8c4-7519fc325ccd"
+                  name="Skema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="cb42f848-c26d-4e47-a124-a5ec213dcd8b"
+            name="Chefkok"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="930f8e56-ace7-41fe-ae84-9815d0dd24cc"
+            name="dage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="88873f36-6d8c-42cf-854c-5be6d3dfe8fb"
+            name="Kok"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c89ca0d0-7474-4c93-b8f8-1c094ddf47f9"
+            name="Nummer"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0b6fcec3-52e4-4046-a0d8-ed1243af95dc"
+            name="Opryder"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d33baac6-ae94-488c-b16c-e06363b6d282"
+            name="Ret"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7b1466f5-9fc0-46d8-a6c9-c1ea246cc39a"
+        name="TilmeldListe"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="73aa8057-12fe-4e55-9f16-8437182451c5"
+            isDerived="false"
+            sourceEndRoleName="TilmeldListe"
+            targetEndRoleName="Skema"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5"
+              LastKnownName="Skema"
+              LastKnownLocation="FællesspisningDomainModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="30e49908-e272-4758-a037-76ca0160ff0e"
+                  name="TilmeldListe"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7005a253-8464-4d8e-b0d1-664f0da65614"
+                  name="Skema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="78949870-ec08-4c29-9626-e00f1784c12f"
             name="Antal Børn"
             isLeaf="false"
             isStatic="false"
@@ -926,8 +2618,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="9a4d086d-7f8a-4611-ac29-c4af94949c7e"
-            name="Antal børnU3"
+            Id="a64f135a-6714-47fd-a5f7-623826126ef7"
+            name="Antal BørnU3"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -937,8 +2629,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="d4f27e55-9c8a-43aa-9f69-6fc52b37945f"
-            name="Kuverter"
+            Id="aa60b6ac-4741-412e-9a94-0a57070ef2bd"
+            name="Antal Unge"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -948,8 +2640,19 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="8914d741-e0ac-4b99-8c3f-e57ed19c7ee9"
-            name="Kuvertpris sum"
+            Id="8640fcf4-0358-4bd7-9503-cf3904b4071f"
+            name="Antal Voksne"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="08fb66cd-0415-4337-8f27-0d95017c9bfe"
+            name="List&lt;Tilmeldte&gt;"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

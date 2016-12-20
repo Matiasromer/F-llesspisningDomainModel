@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="cfb26b37-2651-48e1-8c7d-1ac029fcb660" name="UMLUseCaseDiagram1" linkedPackageId="398ca205-3911-45fc-902c-94bb04bea7d2" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="f256dcbe-b146-4c7d-a7fa-16de39841380">
+      <profileInstance Id="7e7a0263-7d23-4387-ac98-18465c44c97b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d68cae78-f473-4514-8429-aef534b1efc8">
+      <profileInstance Id="a1e97fd9-7ad7-4959-bb4f-bf7fa238622a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="0a3ffe1a-9082-46af-9158-6ed73bb5e17d" name="Planlægger" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6b63dcb6-23f6-4f95-86e5-e611caa38afd" />
+        <targetEnds>
+          <association Id="96683a18-bad1-4648-8b3f-21e71eedd397" isDerived="false" sourceEndRoleName="Planlægger" targetEndRoleName="Beregning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4dd452e3-2240-4596-af96-b6b05bbadb77" LastKnownName="Beregning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="208161b6-2d96-43fa-a754-09570ae7b2f8" name="Planlægger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f2697ae8-8a10-4d5b-a35e-472c8b935a30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="387257c3-8fb1-4674-9a34-72a1d3cfbc62" name="Beregning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d323d11a-0076-4f2c-bc6b-98fdc2fd807e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4086aeed-00d8-496a-aefb-704ddbf4bbcd" />
+          </association>
+          <association Id="a57cb72e-9cb6-460b-9ff2-2ceb2230181b" isDerived="false" sourceEndRoleName="Planlægger" targetEndRoleName="menu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1b4cdf1a-2241-49ed-84e0-de75fcc9c5ed" LastKnownName="menu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d3dd8a6-3001-4257-bd79-de4da5bbdde5" name="Planlægger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="852e872a-da04-4e1b-b772-80b9ab501885" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1dceb54c-0234-43ad-8f42-171035a68294" name="menu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="53f9e30f-adfe-4430-8ef0-d5b0b0743211" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="24671fea-25e2-4998-a4cb-a6342e24bbf0" />
+          </association>
+          <association Id="339dfb58-a897-42c4-9d32-86daa0a1388b" isDerived="false" sourceEndRoleName="Planlægger" targetEndRoleName="Arbejde" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a138941b-373b-48af-8fe4-510c24297a3f" LastKnownName="Arbejde" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f26380ab-7185-44c7-8907-964e40af35e5" name="Planlægger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="88f289a5-fe7f-4697-b681-562c6374ea0f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cdc1a383-eaa8-46c3-86ed-e7979c6ded71" name="Arbejde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3e709982-f67e-43a2-9ae4-effe89374340" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d37f6c1c-8a1f-49fc-9615-d2925cd191c2" />
+          </association>
+          <association Id="439869b1-4f48-4af7-adfe-1c992142e1a9" isDerived="false" sourceEndRoleName="Planlægger" targetEndRoleName="Pris" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="99aec4d6-64f6-4247-8b02-163e75e5847a" LastKnownName="Pris" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="473eaa2e-5c06-45f3-b053-d711aaa4568d" name="Planlægger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="47d9022c-0859-43d7-8a74-49951001b900" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0ebe2e75-07ac-4e76-a9fe-87d566dfa943" name="Pris" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0a5ec67e-35d5-4d86-be28-1a2ec32c8bff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d1780711-a57f-44a5-a5be-f3cdc7ebe48b" />
+          </association>
+          <association Id="28a47b75-40a5-414f-9352-364b812ae4c5" isDerived="false" sourceEndRoleName="Planlægger" targetEndRoleName="Tilmelding" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="853cdf18-5de7-4b94-999c-33b46dc637fc" LastKnownName="Tilmelding" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="30462466-dbac-41ff-b7bf-e78c0f77b3c3" name="Planlægger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d83131b-7b25-4f16-ade2-995cc0169736" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6d0b826-809d-483e-922d-14c4e5e7af9a" name="Tilmelding" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03a78a4f-b9a1-4827-a746-44320ca10ce9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1487bcf7-5c1d-4ebc-a9cd-101a043159aa" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4dd452e3-2240-4596-af96-b6b05bbadb77" name="Beregning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78d62e52-5ba2-42f7-88f7-b55f293b914a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1b4cdf1a-2241-49ed-84e0-de75fcc9c5ed" name="menu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="61067e32-7740-4b72-970b-eedf315c0f3d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="853cdf18-5de7-4b94-999c-33b46dc637fc" name="Tilmelding" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41757b79-21d9-4be6-b4e4-6603c696dd81" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a138941b-373b-48af-8fe4-510c24297a3f" name="Arbejde" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7a49c9af-caa6-4394-b9cd-37bd712b7981" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7e7aa906-314f-4e2d-ac04-643af8cee884" name="Beboer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="54a25534-e57b-40c0-ad85-c3e5ff44d77a" />
+        <targetEnds>
+          <association Id="a8705e8c-f959-4d4b-ad15-86a88bdc1ace" isDerived="false" sourceEndRoleName="Beboer" targetEndRoleName="Pris" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="99aec4d6-64f6-4247-8b02-163e75e5847a" LastKnownName="Pris" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b77e5ac0-34eb-4f5b-8b0d-eec389b758d9" name="Beboer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="59bae60b-27ed-4928-9a36-d5efa48b9025" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8716fd0c-8c86-438f-b234-5607956dd8d5" name="Pris" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="659f0e70-9f28-4eb3-9190-390ef9d48090" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6745ac91-682e-4bb4-b148-37ff6613b3d7" />
+          </association>
+          <association Id="6176fc53-1305-4b4a-927e-ae857992d5fa" isDerived="false" sourceEndRoleName="Beboer" targetEndRoleName="Tilmelding" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="853cdf18-5de7-4b94-999c-33b46dc637fc" LastKnownName="Tilmelding" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cdc32e3-a95c-4aed-896e-71cb5272eb10" name="Beboer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b280c6cb-d0fe-4f68-8210-a5a0d3471a67" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8441fe2e-3c83-4f00-9e50-9398b5265354" name="Tilmelding" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d22114c9-06ef-424a-b5c3-93a135ed9c96" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85c84eb3-1c2a-45d9-b647-cdb16ef7927c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="99aec4d6-64f6-4247-8b02-163e75e5847a" name="Pris" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a4aa3a1d-6808-4405-943a-3057e892aea7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="398ca205-3911-45fc-902c-94bb04bea7d2" name="FællesspisningDomainModel">
+    <elementDefinition Id="963c4b4f-4cbe-45d0-9843-e21d5035ca8f" />
+  </package>
+</useCaseModelRoot>

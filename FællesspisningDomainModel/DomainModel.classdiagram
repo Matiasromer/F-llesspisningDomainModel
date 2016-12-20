@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="4a6502dc-39e8-4387-834c-9b6f65a5d6cd" name="UMLClassDiagram2" linkedPackageId="b442141b-d1f2-42fe-8395-80f9dc9e38fa" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1682df41-e4e9-4b24-819d-e9f5a865c86d">
+      <profileInstance Id="07774574-051d-4fed-9620-bd69788a5d01" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="06d2f6f7-c572-4f7a-9a34-d53bacae5355">
+      <profileInstance Id="ef0425a0-5c60-47af-a1f2-5e33b96c5315" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="04eb82c1-f426-49cc-8c94-045d6b60ee13" name="Arbejde" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="81b9f479-72fb-4a25-aded-785754bf7098" />
+        <targetEnds>
+          <association Id="bccb1ac4-9dec-4245-81ee-51f9d428fe9d" isDerived="false" sourceEndRoleName="Arbejde" targetEndRoleName="Skema" isLeaf="false" isAbstract="false">
+            <classMoniker Id="800e4729-c3d3-4c3d-80c1-4224776484e8" LastKnownName="Skema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9ee7d24-dd95-42d4-b61f-41eb68804270" name="Arbejde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="f10cada5-4c72-412f-86db-26e05bb89f93" name="Lower" value="1">
+                      <elementDefinition Id="57b7a20d-b160-4c3b-b50f-85012d92b9d1" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="10a87744-1abd-466c-9167-8a854d64fc72" name="Upper" value=".*">
+                      <elementDefinition Id="3f1b137c-01c2-4646-864b-463d29fcb647" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9aa7ea9e-b747-4de6-b350-c40a18d99ebe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="09479925-e636-4aba-a34a-abe5373931b3" name="Skema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="96e167c6-cbbc-4b5c-9b18-d44c19f50b61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ea9b73e0-8aa5-45eb-a2f1-e8c7084323db" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="5c11bf88-35aa-4417-a65f-e2df11384b7a" name="Chefkok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bf9f19bf-8374-4498-a9bc-7de3a7f17f80" />
+          </property>
+          <property Id="ba9ff622-b6fd-457a-9531-34e5f1e51add" name="Kok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="35cda051-c477-42f6-9c6d-e9ca1614c382" />
+          </property>
+          <property Id="f15e339c-face-423c-b4bd-940447ef37d9" name="Opryder" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="790ec894-09df-448f-86e7-7eb14edf1e75" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6491be7c-acfb-4d68-892d-7048f81b6f32" name="Bolig" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a40b5b8c-dd2f-4412-bb79-3f055a7c1805" />
+        <targetEnds>
+          <association Id="87508e1c-decb-4f84-8488-d38ec785cc0e" isDerived="false" sourceEndRoleName="Bolig" targetEndRoleName="TilmeldListe" isLeaf="false" isAbstract="false">
+            <classMoniker Id="78280e96-51c4-40d9-a942-9cbfa5c9d9a4" LastKnownName="TilmeldListe" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="054a6163-fe11-426b-ba26-3de5778bb757" name="Bolig" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="9b84cb7a-b646-4abf-808d-549f58490e59" name="Lower" value="1">
+                      <elementDefinition Id="88197c1f-792e-4584-8289-5c3d97312416" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="5724f401-d229-466d-8459-4498dd7d7f3f" name="Upper" value=".*">
+                      <elementDefinition Id="038899c4-0ffc-432a-a600-f7999912f696" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ad275d53-64a0-4eb4-9775-29a6c47d66a3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="10de75d8-e19a-404b-b523-fab707134660" name="TilmeldListe" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26cbe50c-8eb8-4045-aade-ec5819560188" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cd9d1bbd-7226-4419-a5c1-264ecb886816" />
+          </association>
+          <association Id="4570aa74-3b49-4ead-814e-27528fb1a443" isDerived="false" sourceEndRoleName="Bolig" targetEndRoleName="Arbejde" isLeaf="false" isAbstract="false">
+            <classMoniker Id="04eb82c1-f426-49cc-8c94-045d6b60ee13" LastKnownName="Arbejde" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="94f75fb1-e573-4310-a7d8-27e6cdfc553c" name="Bolig" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="02a5a882-7862-457e-a543-f824872c02ce" name="Lower" value="1">
+                      <elementDefinition Id="63c4b2ff-46e8-4241-b94b-362490a6e8e9" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a565e7a7-8127-4e1b-be81-db037849e85f" name="Upper" value=".*">
+                      <elementDefinition Id="fe7d8aec-f27f-4e83-b275-d3d2de398915" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="920f0544-95e4-4bdb-83be-705b78b40933" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f119903c-6ff0-4575-b9b4-28ffe6daf3ff" name="Arbejde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9d76bea9-e40f-4c45-b76c-0c5bf2ee4adc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2a193ff4-8494-48a2-a16b-4a6116753c0d" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="15cf3c95-afbe-4246-94b3-ff40737a9133" name="AntalKuverter" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6084d84c-4c91-4045-856a-34f9794f5a98" />
+          </property>
+          <property Id="ab204729-6367-4c9e-b183-c8185600407f" name="Børn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b4cf23c6-8f51-4c7a-8f7d-780aa907ff3b" />
+          </property>
+          <property Id="38c1a36d-8de1-4ab7-a527-5ea68a9acefd" name="BørnU3" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a066001c-049e-4907-9a09-03f0ea38211c" />
+          </property>
+          <property Id="87868682-e84d-4744-80a4-a18a33c9371a" name="PrisPerKuvert" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="93810fd7-db76-403e-aef8-5561435fae9e" />
+          </property>
+          <property Id="7a034e2f-39c0-4c6a-9cb5-6698a6ca0b07" name="Unge" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc0993e3-b78a-434a-9dfd-b06a1adacf49" />
+          </property>
+          <property Id="8c3b6ff9-3f26-4d01-adc3-12892a8ddcf4" name="Voksen" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="42648d7c-1082-4daa-854f-603f73d1f875" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="800e4729-c3d3-4c3d-80c1-4224776484e8" name="Skema" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7dd4a8a4-a261-41c4-90fa-21c9c77f09f5" />
+        <ownedAttributesInternal>
+          <property Id="2432a864-9b3b-4377-8725-956e49a2c845" name="Add" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="930b46b9-cf05-4ae7-895a-cf05afea1070" />
+          </property>
+          <property Id="42350c1e-74dc-419e-831a-2542859c53f0" name="List&lt;Dag&gt;" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3f91d2c6-a901-4ced-962e-eed83232f326" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2472f675-dbcd-4f40-90da-b752e3fa8d57" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0a5d17e6-290c-42b5-968a-1d61afc8af7a" />
+        <targetEnds>
+          <association Id="8b753586-5a1f-4886-b154-8b248e4c6766" isDerived="false" sourceEndRoleName="Menu" targetEndRoleName="Skema" isLeaf="false" isAbstract="false">
+            <classMoniker Id="800e4729-c3d3-4c3d-80c1-4224776484e8" LastKnownName="Skema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0dcc9e6a-82df-4d38-9d59-c495804ad826" name="Menu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="bf3c3b6c-a14c-470c-8918-e1a35f99af7d" name="Lower" value="1">
+                      <elementDefinition Id="7e71087c-001e-4b7a-a45d-8e1b5d3cc8ee" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9dcc6f73-2066-4a88-88b2-73d8cbd2e24a" name="Upper" value="*.">
+                      <elementDefinition Id="fa236dd2-1632-43cb-9ee8-2f452717596e" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="cdecfcc5-45a0-4051-a4bc-1fab63f9240d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="930c53f0-7804-426e-b8f8-86cb11acb133" name="Skema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ddc69052-a005-4641-b436-3c84255aeed1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a3dda86-357d-4053-80b0-1a7e4a5a7867" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="8a7b4a33-bce6-4658-9c59-67f13c7dacf3" name="Ret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f81a89aa-f376-42f9-85c5-acec377d8672" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="44aef903-462e-48eb-b73f-bd1702635b8c" name="Dag" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="403f9a75-57a5-4cd7-a279-a1e11a2cad4e" />
+        <targetEnds>
+          <association Id="76399c59-d6e0-4aa6-8048-8035441df473" isDerived="false" sourceEndRoleName="Dag" targetEndRoleName="Skema" isLeaf="false" isAbstract="false">
+            <classMoniker Id="800e4729-c3d3-4c3d-80c1-4224776484e8" LastKnownName="Skema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4f21d1fa-d647-424d-9867-60d68badf3a9" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="092c03b2-bb22-43fd-8c17-19cbfc9d3c63" name="Lower" value="1">
+                      <elementDefinition Id="80753cb9-a0e5-45b8-b750-252fed5f64af" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c1daaa43-1717-422f-998b-d7dbc9c50944" name="Upper" value="4">
+                      <elementDefinition Id="7cfff52e-8889-4651-924f-37388d4822e1" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="5a03656e-20f9-4967-a545-ba44b6f722f4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c6d8f2f-e320-41cd-aec6-25e4ea0e988e" name="Skema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5acd6867-e01a-4821-b8c4-7519fc325ccd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="42903bb9-3077-416a-af52-12c4f1fb18a9" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4a94d31e-8db4-44bf-94c8-6f07cb113f3c" name="Chefkok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cb42f848-c26d-4e47-a124-a5ec213dcd8b" />
+          </property>
+          <property Id="5ab95c2a-e3d4-4db1-9fd1-c9f118884454" name="dage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="930f8e56-ace7-41fe-ae84-9815d0dd24cc" />
+          </property>
+          <property Id="cb96e1c0-64ff-4ca7-b9db-1065e3009ee2" name="Kok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="88873f36-6d8c-42cf-854c-5be6d3dfe8fb" />
+          </property>
+          <property Id="f4032441-bc8f-41d9-b2af-6e4c0fca06df" name="Nummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c89ca0d0-7474-4c93-b8f8-1c094ddf47f9" />
+          </property>
+          <property Id="15056269-bf02-4e18-86e2-6e5e2ad9a823" name="Opryder" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b6fcec3-52e4-4046-a0d8-ed1243af95dc" />
+          </property>
+          <property Id="472f92ec-e554-4edc-9e4d-7403b2f78792" name="Ret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d33baac6-ae94-488c-b16c-e06363b6d282" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="78280e96-51c4-40d9-a942-9cbfa5c9d9a4" name="TilmeldListe" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b1466f5-9fc0-46d8-a6c9-c1ea246cc39a" />
+        <targetEnds>
+          <association Id="415b9300-896f-49be-99ef-610e3736dbe5" isDerived="false" sourceEndRoleName="TilmeldListe" targetEndRoleName="Skema" isLeaf="false" isAbstract="false">
+            <classMoniker Id="800e4729-c3d3-4c3d-80c1-4224776484e8" LastKnownName="Skema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eec42475-2d1d-423c-8831-780d32d0e50a" name="TilmeldListe" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="30e49908-e272-4758-a037-76ca0160ff0e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="776f63b0-dccd-447c-8ee1-793f89878396" name="Skema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7005a253-8464-4d8e-b0d1-664f0da65614" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="73aa8057-12fe-4e55-9f16-8437182451c5" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="09e8a222-849f-4ebb-9d6d-3e0e967a1621" name="Antal Børn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="78949870-ec08-4c29-9626-e00f1784c12f" />
+          </property>
+          <property Id="38efe06e-8b95-4fed-803d-41ff87fc2e29" name="Antal BørnU3" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a64f135a-6714-47fd-a5f7-623826126ef7" />
+          </property>
+          <property Id="b2eb344a-84a8-433b-b3c4-8c2c4669e4a3" name="Antal Unge" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aa60b6ac-4741-412e-9a94-0a57070ef2bd" />
+          </property>
+          <property Id="8b9c91ac-9813-4487-9bd1-a8543bb2761c" name="Antal Voksne" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8640fcf4-0358-4bd7-9503-cf3904b4071f" />
+          </property>
+          <property Id="863d2a0c-5135-420a-873f-85f8ca164f4d" name="List&lt;Tilmeldte&gt;" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="08fb66cd-0415-4337-8f27-0d95017c9bfe" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b442141b-d1f2-42fe-8395-80f9dc9e38fa" name="FællesspisningDomainModel">
+    <elementDefinition Id="963c4b4f-4cbe-45d0-9843-e21d5035ca8f" />
+  </package>
+</logicalClassDesignerModel>
